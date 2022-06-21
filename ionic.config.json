@@ -1,0 +1,7 @@
+{
+  "name": "movieFinder",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

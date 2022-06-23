@@ -1,9 +1,15 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>movies</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Trending Movies</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-item button *ngFor="let item of movies">
+      <ion-label>
+        {{ item.title }}
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
